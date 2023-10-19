@@ -1,0 +1,99 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                                data-aos="fade-up" data-aos-delay="200">
+                                <h1>Even One Missing Person Is One Too Many!</h1>
+                                
+                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                                        
+                                </div>
+                        </div>
+                        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                                <img src="{% static 'landing/img/hero1.png' %}" class="img-fluid animated" alt="">
+                        </div>
+                </div>
+        </div>
+
+</section>
+       
+        <section id="services" class="services section-bg">
+                <div class="container" data-aos="fade-up">
+
+                        <div class="section-title">
+                                <h2>Technology</h2>
+                                <p>To achieve our goal of finding missing people, we make use of the following
+                                        technologies,</p>
+                        </div>
+
+                        <div class="row">
+                                <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in"
+                                        data-aos-delay="100">
+                                        <div class="icon-box">
+                                                <div class="icon"><i class="bx bx-layer"></i></div>
+                                                <h4><a href="https://getbootstrap.com/">Bootstrap</a></h4>
+                                                
+                                        </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
+                                        data-aos="zoom-in" data-aos-delay="200">
+                                        <div class="icon-box">
+                                                <div class="icon"><i class="bx bx-layer"></i></div>
+                                                <h4><a href="https://www.djangoproject.com/">Django</a></h4>
+                                               
+                                        </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+                                        data-aos="zoom-in" data-aos-delay="300">
+                                        <div class="icon-box">
+                                                <div class="icon"><i class="bx bx-layer"></i></div>
+                                                <h4><a href="https://azure.microsoft.com/en-in/services/cognitive-services/face/#overview">Azure
+                                                                Face API</a></h4>
+                                                
+                                        </div>
+                                </div>
+
+                                <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
+                                        data-aos="zoom-in" data-aos-delay="400">
+                                        <div class="icon-box">
+                                                <div class="icon"><i class="bx bx-layer"></i></div>
+                                                <h4><a href="https://www.sqlite.org/index.html">SQLite</a></h4>
+                                                
+                                        </div>
+                                </div>
+
+                        </div>
+
+                </div>
+        </section>
+        
+        
+        <footer id="footer">
+
+
+
+                <div class="container footer-bottom clearfix">
+                        <div class="copyright">
+                                &copy; Copyright <strong><span>Face Find</span></strong>. All Rights Reserved
+                        </div>
+                        <div class="credits">
+                               
+                        </div>
+                </div>
+        </footer>
+
+
+
+</main>
+
+
+{% endblock content%}
